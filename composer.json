@@ -1,0 +1,19 @@
+{
+    "name": "ako/pack",
+    "description": "deneme",
+    "license": "MIT",
+    "require": {},
+    "autoload":{
+
+      "psr-4":{
+
+
+        "app\\":"app/",
+        "system\\":"system/",
+        "patterns\\":"patterns/"
+
+      }
+
+
+    }
+}
