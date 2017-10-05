@@ -16,7 +16,7 @@ UPDATE:   $a=(new users())->update(array("ogrenci_id",9,2)); // idsi 9 olanı 2 
 ________________________________________________________________________________________________________________________________________________________
 
 
-										SİMPLE FARCtory PATTERN
+									SİMPLE FARCtory PATTERN
 
 $ako=factory::load("ako");
 echo $ako->ako();
