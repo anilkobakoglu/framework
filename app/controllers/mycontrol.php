@@ -74,7 +74,12 @@ class mycontrol extends maincontroller
 
     }//kaydol end
 
+ function form(Request $request){
 
+echo"<pre>";
+echo "merhaba";
+
+}//form end
    
 
 

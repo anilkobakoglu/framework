@@ -24,7 +24,8 @@ router::get("profil/","mycontrol@profil");
 router::get("kaydol/","mycontrol@kaydol");
 
 router::get("kisiler/","mycontrol@kisiler");
-//router::get("kisibilgileri/*","kisibilgileri@kisibilgileri");
+
+
 
 
 
@@ -48,7 +49,8 @@ $url= $_SERVER['REQUEST_URI'];
 router::post("loginislemler/","loginislemler@loginislemler");
 router::post("kaydol/","mycontrol@kaydol");
 router::post("kaydolislemler/","kaydolislemler@kaydolislemler");
-
+router::post("resimgonder/","dosya@resim");
+router::post("form","mycontrol@form");
 
 
 

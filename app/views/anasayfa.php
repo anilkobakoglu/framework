@@ -11,14 +11,23 @@
 <body>
 
 	<h1> merhaba burası anasayfa</h1>
-<a href="kaydol"><h1> kaydol</h1></a>	<a href="login"><h1> giriş yap</h1></a> <a href="profil"><h1> profil</h1></a>
-
-<a href="kisiler"><h1>kişileri görüntüle</h1>  </a>
+<a href="kaydol"><h1> kaydol</h1></a>	
+<a href="login"><h1> giriş yap</h1></a> 
+<a href="profil"><h1> profil</h1></a>
+<a href="kisiler"><h1>kişileri görüntüle</h1> </a>
 
 
 	<img src="public/images/php.jpg">
 	
 
+
+<form action="/form" method="post" >
+	
+
+<input type="text" name="ad"/>
+    <input type="submit"  type="value">
+         <input type="hidden" name="_token" value="<?=csrf_token()?>">
+</form>
 
 </body>
 </html>
