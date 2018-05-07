@@ -1,3 +1,8 @@
+									
+									İLK PHP FRAMEWROK DENEMEM
+									
+									
+									
 									SESSİON_START İŞLEMLERİ
 START:   (new session())->start("ogrenci_id",5);
 KOŞUL: 	 (new session())->kosul("ogrenci_id"); //bu isimde session aktifmi diye bakar
